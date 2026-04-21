@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Product Sans';
+  src:
+    local('Product Sans'),
+    local('ProductSans'),
+    local('Google Sans');
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f1f1f1;
+  background: #242424;
+  font-family: "Product Sans", "Google Sans", "Segoe UI", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #242424;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
